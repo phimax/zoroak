@@ -2685,7 +2685,22 @@ p > video {
 /**
  * 16.1 Mobile Large 620px
  */
-
+@media screen and (max-width: 38.75em) {
+	body:before {
+		
+		/*background-color: #fff;*/
+		box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+		content: "";
+		display: block;
+		height: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 29.4118%;
+		z-index: 0; /* Fixes flashing bug with scrolling on Safari */
+	}
+}
 @media screen and (min-width: 38.75em) {
 	ul,
 	ol {
@@ -4054,8 +4069,8 @@ p > video {
  */
 
 @media screen and (min-width: 59.6875em) {
-	/*
 	body:before {
+		/*
 		background-color: #fff;
 		box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
 		content: "";
@@ -4068,7 +4083,6 @@ p > video {
 		width: 29.4118%;
 		z-index: 0; /* Fixes flashing bug with scrolling on Safari */
 	}
-	*/
 
 	.site {
 		margin: 0 auto;
