@@ -1,0 +1,31 @@
+{
+	"name": "jquery-colorbox",
+	"title": "jQuery Colorbox",
+	"description": "Add jQuery lightbox for images automatically in WordPress",
+	"version": "1.4.33",
+	"dependencies": {
+		"jquery": ">=1.3.2",
+		"colorbox": "1.4.33"
+	},
+	"keywords": [
+		"modal",
+		"lightbox",
+		"window",
+		"popup",
+		"ui",
+		"jQuery"
+	],
+	"author": {
+		"name": "Arne Frnaken",
+		"url": "http://www.techotronic.de",
+		"email": "colorbox@techotronic.de"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+	"homepage": "http://www.techotronic.de/plugins/jquery-colorbox/",
+	"demo": "http://www.techotronic.de/plugins/jquery-colorbox/"
+}

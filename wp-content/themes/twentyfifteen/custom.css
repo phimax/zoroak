@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5, h6, h1 a , p.site-title{
+	font-family: 'Lobster', cursive;
+}
+p, address, pre, hr, ul, ol, dl, dd, table {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+header.site-header {
+	margin: 20px 0;
+	padding: 0;
+}
+header.site-header .site-branding {
+    text-align: center;
+}
+header.site-header .site-branding img {
+	margin-bottom: 20px;
+	width: 250px;
+}
+img.colorbox-manual {
+	margin: 0;
+}
+div, p, ul, li {
+	font-family: 'Raleway', sans-serif;
+}
+.entry-content p{
+	font-size: 16px;
+}
+main.site-main {
+	padding-top: 20px;
+}
+article.hentry {
+	padding-top: 20px;
+	margin: 0px 4%;
+}
+h2.entry-title {
+	margin-bottom: 20px;
+}
+div#sidebar {
+    background-color: #F1F1F1 !important;
+    height: 100%
+}
+body {
+	/*
+	    background-image: url(images/fondo-zoroak.jpg);
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	    */
+}

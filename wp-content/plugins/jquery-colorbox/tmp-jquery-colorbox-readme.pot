@@ -1,0 +1,957 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "jQuery Colorbox"
+msgstr ""
+
+#. Short description.
+msgid "Adds Colorbox/Lightbox functionality to images, grouped by post or page. Works for WordPress and NextGEN galleries. Comes with different themes."
+msgstr ""
+
+#. Found in description list item.
+msgid "Arabic (<code>ar</code>) by <a href=\"http://www.photokeens.com\">Modar Soos</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Belorussian (<code>be_BY</code>) Marcis G."
+msgstr ""
+
+#. Found in description list item.
+msgid "Bosnian (<code>bs_BA</code>) by Vedran Jurincic"
+msgstr ""
+
+#. Found in description list item.
+msgid "Bulgarian (<code>bg_BG</code>) by <a href=\"http://nikolay.zaynelov.com\">Nikolay Zaynelov</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Czech (<code>cs_CZ</code>) by David Weis"
+msgstr ""
+
+#. Found in description list item.
+msgid "Simplified Chinese (<code>zh_CN</code>) by <a href=\"http://tech.yiandya.com/\">Lucas Ho</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Danish (<code>da_DK</code>) by Michael Bering Petersen"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dutch (<code>nl_NL</code>) by <a href=\"http://nl.linkedin.com/pub/richard-laak/b/b21/672\">Richard van Laak</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "English (<code>en_EN</code>) by <a href=\"http://www.techotronic.de/\">Arne Franken</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Finnish (<code>fi</code>) by <a href=\"http://www.merisaari.com/\">Lauri Merisaari</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "French (<code>fr_FR</code>) by <a href=\"http://www.monblogamoua.fr/\">Pierre Sudarovich</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "German (<code>de_DE</code>) by <a href=\"http://www.techotronic.de/\">Arne Franken</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Hebrew (<code>he_IL</code>) by <a href=\"http://www.TommyGordon.co.il\">Tommy Gordon</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Italian (<code>it_IT</code>) by Marco Chiesi"
+msgstr ""
+
+#. Found in description list item.
+msgid "Latvian (<code>lv</code>) by Uldis Jansons"
+msgstr ""
+
+#. Found in description list item.
+msgid "Malay (<code>ms_MY</code>) by <a href=\"http://www.inisahaini.com\">Saha-ini Ahmad Safian</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Polish (<code>pl_PL</code>) by Kornel Łysikowski"
+msgstr ""
+
+#. Found in description list item.
+msgid "Portuguese (<code>pt_BR</code>) by <a href=\"http://twitter.com/gervasioantonio\">Gervásio Antônio</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Romanian (<code>ro_RO</code>) by Luke Tyler"
+msgstr ""
+
+#. Found in description list item.
+msgid "Russian (<code>ru_RU</code>) by Arkadiy Florinskiy"
+msgstr ""
+
+#. Found in description list item.
+msgid "Slovak (<code>sk_SK</code>) by B. Radenovich"
+msgstr ""
+
+#. Found in description list item.
+msgid "Spanish (<code>es_ES</code>) by Inma P.-Zubizarreta"
+msgstr ""
+
+#. Found in description list item.
+msgid "Swedish (<code>sv_SE</code>) by <a href=\"http://www.theindiaexperience.se/\">Christian</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Turkish (<code>tr_TR</code>) by <a href=\"http://www.serhatyolacan.com/\">Serhat Yolaçan</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ukrainian (<code>uk</code>) by Jurko Chervony"
+msgstr ""
+
+#. Found in description list item.
+msgid "Vietnamese (<code>vn_VN</code>) by Techfacts"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "A Colorbox/Lightbox plugin for Wordpress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"jQuery Colorbox features 11 themes from which you can choose. See <a href=\"http://www.techotronic.de/plugins/jquery-colorbox/theme-screenshots/\">my website</a>.<br />\n"
+"Works out-of-the-box with WordPress Galleries and <a href=\"http://wordpress.org/extend/plugins/nextgen-gallery/\">NextGEN Gallery</a>! (choose no effect in NextGEN settings)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"When adding an image to a post or page, usually a thumbnail is inserted and linked to the image in original size.<br />\n"
+"All images in posts and pages can be displayed in a Lightbox/colorbox when the thumbnail is clicked.<br />\n"
+"Images are grouped as galleries when linked in the same post or page. Groups can be displayed in a slideshow within the Lightbox/colorbox."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Individual images can be excluded by adding a special CSS class."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "jQuery Colorbox can also open linked content (external as well as inline) in a Lightbox/Colorbox."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Go to the <a href=\"http://www.techotronic.de/plugins/jquery-colorbox/\">plugin page</a> for demo pages."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"For more information visit the <a href=\"http://wordpress.org/extend/plugins/jquery-colorbox/faq/\">FAQ</a>.<br />\n"
+"If you have questions or problems, feel free to write an entry at <a href=\"http://wordpress.org/tags/jquery-colorbox?forum_id=10\">the jQuery Colorbox WordPress.org forum</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Localization</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Is your native language missing?<br />\n"
+"Translating the plugin is easy if you understand english and are fluent in another language.<br />\n"
+"I described in the <a href=\"http://wordpress.org/extend/plugins/jquery-colorbox/faq/\">FAQ</a> how the translation works."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Credits</strong><br />\n"
+"Includes <a href=\"http://jacklmoore.com/colorbox/\">ColorBox</a> 1.4.33 jQuery plugin from Jack Moore.\n"
+"The picture I used for the screenshots was designed by <a href=\"http://wallpapers.vintage.it/\">Davide Vicariotto</a>"
+msgstr ""
+
+#. Found in installation header.
+msgid "Upgrading From A Previous Version"
+msgstr ""
+
+#. Found in installation header.
+msgid "Installing The Plugin"
+msgstr ""
+
+#. Found in installation header.
+msgid "Configuring The Plugin"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "To upgrade from a previous version of this plugin, use the built in update feature of WordPress or copy the files on top of the current installation."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid ""
+"Either use the built in plugin installation feature of WordPress, or extract all files from the ZIP file, making sure to keep the file structure intact, and then upload it to <code>/wp-content/plugins/</code>.<br />\n"
+"Then just visit your admin area and activate the plugin.<br />\n"
+"That's it!"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid ""
+"Go to the settings page and choose one of the themes bundled with the plugin and other settings.<br />\n"
+"Do not forget to activate auto Colorbox if you want the Lightbox/Colorbox to work for all images."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<strong>See Also:</strong> <a href=\"http://codex.wordpress.org/Managing_Plugins#Installing_Plugins\">\"Installing Plugins\" article on the WP Codex</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: If title attribute of image is empty, the alt attribute is used to display the colorbox title."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: update Colorbox version to 1.4.33"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: update jQuery version to 1.10.1 (if selected on settings page)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Czech translation by David Weis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Update of the Slovak translation by B. Radenovich"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: update Colorbox version to 1.3.21"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: update jQuery version to 1.9.0 (if selected on settings page)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Bulgarian translation by Nikolay Zaynelov"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Zoom overlay does not break floating images any more"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: add CSS class to WP galleries if \"add to all\" is selected and the gallery is outside of the text area of a post and page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: update Colorbox version to 1.3.20.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: update jQuery version to 1.8.2 (if selected on settings page)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: using colorbox-link works again"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: A Zoom overlay can be added to images automatically"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added option to load all JavaScript in the footer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added option to use jQuery library from Google instead of the one that comes with WordPress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: successfully tested with WordPress 3.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: links can now be grouped by adding CSS class \"colorbox-link-NUMBER\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Marco Chiesi updated the italian translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: switch declaration of 'NAME' and 'TEXTDOMAIN'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Romanian translation by Luke Tyler"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Ukrainian translation updated by Jurko Chervony"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: update to Colorbox 1.3.19"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: gracefully add CSS style <code>colorbox-link</code> to TinyMCE style dropdown"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: use <code>plugins_url</code> to make links HTTPS aware"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: increase z-index of Colorbox and overlay to 99999 since Twentyeleven has a Header z-index of 9999"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: removing meta tag from header since it's not HTML5 compatible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: pulled all links to company sites of translators on request by WordPress staff"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: successfully tested with WordPress 3.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Plugin name now translatable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Defaults are now used if JavaScript options can't be set because of JavaScript minimizers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Danish translation by Michael Bering Petersen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Vietnamese translation by Techfacts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: added option to remove the link to the developers site from the WordPress meta-box."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: \"Automate Colorbox for all other images\" now again works as intended. (functionality broke in 4.1)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: fixes \"Undefined index: colorboxAddClassToLinks\" error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: got rid of PHP's XML-RPC methods, also plugin checks now before calling XML-related methods."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Updated Colorbox version to 1.3.18"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Plugin is compatible to WordPress 3.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Polish translation by Kornel Łysikowski"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Finnish translation by Lauri Merisaari"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Simplified Chinese translation by Lucas Ho"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Plugin will only select links with class <code>colorbox-link</code>, no other HTML tags."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: JavaScript will work with jQuery 1.6 now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: loading inline content does not trigger loading an iframe any more."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: regex for IMG tag works correctly now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Update of Colorbox library to version 1.3.17.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: JavaScript now ignores links that do not have the optional \"href\" attribute."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Links from images to non-images are now opened in a Colorbox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Moved bulk of JavaScript from inline to file, consolidated files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Additional option for adding colorbox class to images outside of posts and pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Major refactoring, hopefully speeds up frontend and backend rendering"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Render Meta-Tag with plugin version into blog header instead of comments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: French translation updated by Pierre Sudarovich"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Restructured settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Plugin again compatible to PHP4."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Update of Colorbox library to version 1.3.16"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: jQuery calls won't break other JavaScript libraries like Prototype or Scriptaculous any more"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Set width and height for Colorbox links once separate from the Colorbox setting for images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Inline HTML content can now be loaded in the Colorbox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Latvian translation by Uldis Jansons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Modar Soos updated the Arabic translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Joao Netto updated the Portuguese translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Arkadiy Florinskiy updated the Russian translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Made plugin compatible to the \"smugmug\" plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Moved Colorbox CSS class add to style dropdown of TinyMCE"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Spanish translation by Inma P.-Zubizarreta"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: re-added the option to hide flash objects behind the colorbox overlay."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Last bugfix broke minor functionality."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Last bugfix broke the plugin, settings are now correctly read again."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Theme change is now saved again."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Experimental feature: jQuery Colorbox can now open external websites/pictures if the link has the class \"colorbox-link\" and a width/height for the colorbox is set."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Plugin now works if <code>WP_DEBUG</code> is set to \"true\". Thx to Roy Iversen for the bug report!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: rewrote auto-add JavaScript. Thx to jrevillini for the help!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Slovak translation by Stefan Stieranka"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Swedish translation by Christian"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Update of Colorbox library to version 1.3.15"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: performance improvement: colorbox-class is only automatically added only to images that do not already have a colorbox-class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Update of Colorbox library to version 1.3.9 which fixes lots of bugs. Most notably the \"0 by 0\" bug in Chrome."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Ukrainian translation by Yuri Kryzhanivskyi"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Italian translation by Erkinson"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Hebrew translation by Tommy Gordon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: URLs are now generated correctly for WP-MU installations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added latest donations and top donations to settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Colorbox is not applied to image links that have the class <code>colorbox-off</code> any more. Useful for NextGEN users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Dutch translation by Richard van Laak"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Malay translation by Saha-ini Ahmad Safian"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Added CSS id \"colorboxLink\" to link in Meta container."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Belorussian translation by Marcis G."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Russian translation by Arkadiy Florinskiy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Screenshot for Theme#10 is now displayed correctly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added Theme#11, a modified version of Theme#1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Theme#7,9 and 11 will work in Internet Explorer 6 now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Minified CSS and JavaScript"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: registered link to plugin page in WordPress Meta widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added theme#10, thx to Serhat Yolaçan for all the hard work! (CSS3 rounded edges, IE does not support that)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: jQuery Colorbox plugin now adds necessary CSS class to all embedded images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: jQuery Colorbox plugin is now compatible to NextGEN Gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Vedran Jurincic updated the bosnian translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Arabic translation by Modar Soos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Automatic hiding of embedded flash objects under Colorbox layer now works in Internet Explorer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added theme#9, a modified version of theme#4."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: French translation by Tolingo Translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: If auto colorbox is switched on, plugin now adds Colorbox functionality to every image regardless of position"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Serhat Yolaçan updated the turkish translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Settings are NOW REALLY not overridden any more every time the plugin gets activated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Decided to move from 2.0.1 to 3.0 because I implemented many new features"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Slideshow speed setting works now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: Settings are not overridden any more every time the plugin gets activated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: jQuery Colorbox now works again for links with uppercase suffixes (IMG,JPG etc) thx to Jason Stapels for the bug report and fix!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added theme#6, a modified version of theme#1. (not compatible with IE6) thx to Gervásio Antônio for all the hard work!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added theme#7, a modified version of theme#1. thx to Vedran Jurincic for the feature request!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added theme#8, a modified version of theme#6."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added screenshots of all themes, screenshot of selected theme is shown in admin menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added warning if the plugin is activated but not set to work for all images on the blog. Warning can be turned off on the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added setting for automatic hiding of embedded flash objects under Colorbox layer. Default: false"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added switch for preloading of \"previous\" and \"next\" images. Default: false"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added switch for closing of Colorbox on click on opacity layer. Default: false"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added setting for transition type. Default: elastic"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added setting for transition speed. Default: 250 milliseconds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added setting for overlay opacity. Default: 0.85"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Fixed fonts in Colorbox to Arial 12px"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Turkish translation by Serhat Yolaçan"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Portuguese translation by Gervásio Antônio"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Bosnian translation by Vedran Jurincic"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Plugin should be WPMU compatible now. Haven't tested myself, though. Would appreciate any feedback."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Successfully tested jQuery Colorbox with jQuery 1.4.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Fixed \"slideshow\" offset from right hand side in the Colorbox of theme#4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: slideshow does not start automatically any more if the setting is not checked on the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Decided to move from 1.3.3 to 2.0 because I implemented many new features."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: fixed relative paths for theme1 and theme4 by adding the CSS for the Internet Explorer workaround directly into the page. Thx to Andrew Radke for the suggestion!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: switch adding of <code>colorbox-postId</code> classes to images in posts and pages on and off through setting. Default: off."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: now works for images outside of posts (e.g. sidebar or header) if CSS class <code>colorbox-manual</code> is added manually"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: jQuery Colorbox now working for WordPress attachment pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added switch that adds slideshow functionality to all Colorbox groups. (no way to add slideshows individually yet)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added switch that adds automatic start to slideshows (no way to add slideshows individually yet)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added configuration of slideshow speed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added switch that allows the user to decide whether Colorbox scales images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added demos of the plugin on the <a href=\"http://www.techotronic.de/plugins/jquery-colorbox/\">plugin page</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added configuration for adding colorbox class only to WordPress galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Automatically resets settings if settings of a version prior to 1.4 are found upon activation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: width and height can now be configured as percent relative to browser window size or in pixels (default is percent)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: jQuery Colorbox is now only working on Image links (of type jpeg, jpg, gif, png, bmp)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Improved translation. Thx to Fabian Wolf for the help!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: updated the FAQ"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Updated readme."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Updated descriptions and translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: fixed settings page, options can be saved now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: added settings deletion on uninstall and \"delete settings from database\" functionality to settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: moved adding of CSS class priority lower, hopefully now the CSS class is added to pictures after other plugins update the HTML"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: moved back to regexp replacement and implemented a workaround in the JavaScript to still allow images to be excluded by adding the class <code>colorbox-off</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: changed include calls for Colorbox JavaScript and CSS to version 1.3.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: optimized modification of <code>the_content</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: jQuery-Colorbox won't add Colorbox functionality to images that have the CSS class <code>colorbox-off</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: Updated Colorbox version to 1.3.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: should be compatible to jQuery 1.4, still using 1.3.2 at the moment because it is bundled in WordPress 2.9.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: changed the way that the Colorbox CSS class is added to images to be more reliable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CHANGE: changed layout of settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: fixes bug where colorbox was not working if linked images were used (by the theme) outside of blog posts and pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: adds configuration for Colorbox and picture resizing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BUGFIX: fixes critical bug which would break rendering the blog. Sorry, was not aware that the plugin would be listed before I tagged the files as 1.0 in subversion..."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Initial release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Added Colorbox version 1.3.5"
+msgstr ""
+
+#. Found in faq list item.
+msgid "download <a href=\"http://www.poedit.net/\">POEdit</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "download jQuery Colorbox (from your FTP server or from <a href=\"http://wordpress.org/extend/plugins/jquery-colorbox/\">WordPress.org</a>)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "copy the file <code>localization/jquery-colorbox-en_EN.po</code> and rename it. (in this case <code>jquery-colorbox-de_DE.po</code>)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "open the file with POEdit."
+msgstr ""
+
+#. Found in faq list item.
+msgid "translate all strings. Things like <code>{total}</code> or <code>%1$s</code> mean that a value will be inserted later."
+msgstr ""
+
+#. Found in faq list item.
+msgid "The string that says \"English translation by Arne ...\", this is where you put your name, website (or email) and your language in. ;-)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "(optional) Go to POEdit -&gt; Catalog -&gt; Settings and enter your name, email, language code etc"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Save the file. Now you will see two files, <code>jquery-colorbox-de_DE.po</code> and <code>jquery-colorbox-de_DE.mo</code>."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Upload your files to your FTP server into the jQuery Colorbox directory (usually <code>/wp-content/plugins/jquery-colorbox/</code>)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "When you are sure that all translations are working correctly, send the po-file to me and I will put it into the next jQuery Colorbox version."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"I installed your plugin, but when I click on a thumbnail, the original picture is loaded directly instead of in the Colorbox. What could be the problem?<br />\n"
+"Make sure that your theme uses the <code>wp_head();</code> function in the HTML head-tag.<br />\n"
+"I have seen problems where other plugins include their own versions of the jQuery library my plugin uses.<br />\n"
+"Chances are that the other jQuery library is loaded after the one that I load. If that happens, the colorbox features are overwritten."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"How does jQuery Colorbox work?<br />\n"
+"When inserting a picture, the field \"Link URL\" needs to contain the link to the full-sized image. (press the button \"Link to Image\" below the field)<br />\n"
+"When rendering the blog, a special CSS class (<code>colorbox-postId</code>, e.g. <code>colorbox-123</code>) is added to linked images.<br />\n"
+"This CSS class is then passed to the colorbox JavaScript."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"How do I exclude an image from Colorbox in a page or post?<br />\n"
+"Add the CSS class <code>colorbox-off</code> to the image or to the link to the big sized image you want to exclude.<br />\n"
+"jQuery Colorbox does not add the colorbox effect to images that have the CSS class <code>colorbox-off</code>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"How does jQuery Colorbox group images?<br />\n"
+"For all images in a post or page, the same CSS class is added. All images with the same CSS class are grouped."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"I have Flash (e.g. Youtube videos) embedded on my website. Why do they show up over the layer when I click on an image?<br />\n"
+"This is a Flash issue, but relatively easy to solve. Just activate the automatic hiding of embedded flash objects on the settings page.<br />\n"
+"Adobe described on these sites what the problem is and how to fix it manually:<br />\n"
+"<a href=\"http://kb2.adobe.com/cps/155/tn_15523.html\">Adobe Knowledgebase 1</a><br />\n"
+"<a href=\"http://kb2.adobe.com/cps/142/tn_14201.html\">Adobe Knowledgebase 2</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"I have a problem with the Colorbox or want to style it my own way. Can you help?<br />\n"
+"Of course I want to help everyone, but I have a full time job and I don't have the time. You can ask your questions at the <a href=\"http://groups.google.com/group/colorbox/topics&quot;\">Colorbox Google group</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Why is jQuery Colorbox not available in my language?<br />\n"
+"I speak German and English fluently, but unfortunately no other language well enough to do a translation.<br />\n"
+"Would you like to help? Translating the plugin is easy if you understand English and are fluent in another language."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"How do I translate jQuery Colorbox?<br />\n"
+"Take a look at the WordPress site and identify <a href=\"http://codex.wordpress.org/WordPress_in_Your_Language\">your language code</a>:<br />\n"
+"e.g. the language code for German is <code>de_DE</code>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"My question isn't answered here. What do I do now?<br />\n"
+"Feel free to open a thread at <a href=\"http://wordpress.org/tags/jquery-colorbox?forum_id=10\">the jQuery Colorbox WordPress.org forum</a>.<br />\n"
+"I'll include new FAQs in newer versions."
+msgstr ""
