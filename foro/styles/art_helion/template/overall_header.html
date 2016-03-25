@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]><html dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}" class="ie oldie ie7"><![endif]-->
+<!--[if IE 8]><html dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}" class="ie oldie"><![endif]-->
+<!--[if gt IE 8]><html dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}" class="ie"><![endif]-->
+<!--[if !(IE)]><!--><html dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}"><!--<![endif]-->
+<head>
+	<meta charset="{S_CONTENT_ENCODING}">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	{META}
+	<!-- IF S_ENABLE_FEEDS -->
+		<!-- IF S_ENABLE_FEEDS_OVERALL --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {SITENAME}" href="{U_FEED}" /><!-- ENDIF -->
+		<!-- IF S_ENABLE_FEEDS_NEWS --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FEED_NEWS}" href="{U_FEED}?mode=news" /><!-- ENDIF -->
+		<!-- IF S_ENABLE_FEEDS_FORUMS --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_ALL_FORUMS}" href="{U_FEED}?mode=forums" /><!-- ENDIF -->
+		<!-- IF S_ENABLE_FEEDS_TOPICS --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FEED_TOPICS_NEW}" href="{U_FEED}?mode=topics" /><!-- ENDIF -->
+		<!-- IF S_ENABLE_FEEDS_TOPICS_ACTIVE --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FEED_TOPICS_ACTIVE}" href="{U_FEED}?mode=topics_active" /><!-- ENDIF -->
+		<!-- IF S_ENABLE_FEEDS_FORUM and S_FORUM_ID --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_FORUM} - {FORUM_NAME}" href="{U_FEED}?f={S_FORUM_ID}" /><!-- ENDIF -->
+		<!-- IF S_ENABLE_FEEDS_TOPIC and S_TOPIC_ID --><link rel="alternate" type="application/atom+xml" title="{L_FEED} - {L_TOPIC} - {TOPIC_TITLE}" href="{U_FEED}?f={S_FORUM_ID}&amp;t={S_TOPIC_ID}" /><!-- ENDIF -->
+	<!-- ENDIF -->
+	<title>{SITENAME} - {PAGE_TITLE}</title>
+<!--
+   phpBB style name:    Artodia Helion
+   Based on style:      prosilver (this is the default phpBB3 style)
+   Prosilver author:    Tom Beddard ( http://www.subBlue.com/ )
+   Helion author:		Vjacheslav Trushkin ( http://www.artodia.com/ )
+-->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese,cyrillic">
+	<link rel="stylesheet" href="{T_STYLESHEET_LINK}">
+	<!-- IF S_USER_LANG != 'en-gb' && S_USER_LANG != 'en-us' -->
+		<link rel="stylesheet" href="{T_THEME_PATH}/{S_USER_LANG}/translation.css">
+	<!-- ENDIF -->
+	<!-- INCLUDE config.html -->
+	<!-- INCLUDE scripts_header.html -->
+</head>
+<body class="phpbb section-{SCRIPT_NAME}">
+<div class="body-wrapper" id="wrap">
+
+<!-- IF $STYLE_HEADER_LOGIN and not S_USER_LOGGED_IN -->
+<div class="header-login">
+	<div class="popup-trigger">
+		<a href="{U_LOGIN_LOGOUT}" class="header-menu menu-login"><span>{L_LOGIN}</span></a>
+		<div class="popup">
+			<!-- IF S_LOGIN_ACTION -->
+				<form action="{S_LOGIN_ACTION}" method="post" id="phpbb-header-login">
+				<fieldset>
+				<dl>
+					<dt>{L_USERNAME}:</dt>
+					<dd><input class="inputbox" type="text" name="username" value="" required></dd>
+				</dl>
+				<dl>
+					<dt>{L_PASSWORD}:</dt>
+					<dd><input class="inputbox" type="password" name="password" value="" required></dd>
+				</dl>
+				<!-- IF S_AUTOLOGIN_ENABLED --><p class="nowrap right"><label><input type="checkbox" name="autologin"> {L_LOG_ME_IN}</label></p><!-- ENDIF -->
+				<p class="right buttons">
+					<input type="hidden" name="login" value="1" />
+					<a href="javascript:void(0);" onclick="$('#phpbb-header-login').get(0).submit(); return false;" class="icon-login"><span></span>{L_LOGIN}</a>
+				</p>
+				</fieldset>
+				</form>
+			<!-- ELSE -->
+				<p class="right">
+					<a class="button1" href="{U_LOGIN_LOGOUT}">{L_LOGIN_LOGOUT}</a>
+				</p>
+			<!-- ENDIF -->
+		</div>
+	</div>
+	<!-- IF not S_USER_LOGGED_IN and S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) -->
+		&bull;
+		<a href="{U_REGISTER}" class="header-menu menu-register"><span>{L_REGISTER}</span></a>
+	<!-- ENDIF -->
+</div>
+<!-- ENDIF -->
+
+<!-- INCLUDE _top.html -->
+
+<div class="layout-outer">
+<div class="forum-wrapper">
+<div class="layout-wrapper">
+
+	<!-- INCLUDE _sidebar_left.html -->
+	
+	<div class="layout-middle page-content">
+
+		<!-- IF S_USER_LOGGED_IN -->
+		<p class="time first">
+			{LAST_VISIT_DATE}
+		</p>
+		<p class="time">
+			{CURRENT_TIME}
+		</p>
+		<!-- ENDIF -->
+
+		<!-- IF S_BOARD_DISABLED and S_USER_LOGGED_IN and (U_MCP or U_ACP) -->
+		<div id="information" class="rules">
+			<div class="inner"><span class="corners-top"><span></span></span>
+				<strong>{L_INFORMATION}:</strong> {L_BOARD_DISABLED}
+			<span class="corners-bottom"><span></span></span></div>
+		</div>
+		<!-- ELSEIF S_USER_LOGGED_IN and (S_USER_NEW_PRIVMSG or S_USER_UNREAD_PRIVMSG) -->
+		<div id="information" class="rules">
+			<div class="inner"><span class="corners-top"><span></span></span>
+				<!-- IF S_USER_NEW_PRIVMSG -->
+					<a href="{U_PRIVATEMSGS}"><!-- IF S_USER_NEW_PRIVMSG > 1 -->{L_YOU_NEW_PMS}<!-- ELSE -->{L_YOU_NEW_PM}<!-- ENDIF --></a>
+				<!-- ELSE -->
+					<a href="{U_PRIVATEMSGS}">{PRIVATE_MESSAGE_INFO}<!-- IF PRIVATE_MESSAGE_INFO_UNREAD -->, {PRIVATE_MESSAGE_INFO_UNREAD}<!-- ENDIF --></a>
+				<!-- ENDIF -->
+			<span class="corners-bottom"><span></span></span></div>
+		</div>
+		<!-- ENDIF -->
+
+		

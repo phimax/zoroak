@@ -1,0 +1,1096 @@
+/* General Markup Styles
+---------------------------------------- */
+
+* {
+	/* Reset browsers default margin, padding and font sizes */
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 100%;
+	/* Always show a scrollbar for short pages - stops the jump when the scrollbar appears. non-IE browsers */
+	height: 101%;
+}
+
+body {
+	/* Text-Sizing with ems: http://www.clagnut.com/blog/348/ */
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #000000;
+	/*font-size: 62.5%;			 This sets the default font size to be equivalent to 10px */
+	font-size: 10px;
+	margin: 0;
+	padding: 5px 0;
+}
+
+#wrap {
+	width: 99%;
+	margin: 0 auto;
+	min-width: 850px;
+}
+
+.tbspace {
+	padding: 0 18px;
+}
+
+.tl {
+	background: url("{T_THEME_PATH}/images/tl.png") no-repeat;
+	height: 18px;
+	width: 18px;
+}
+
+.tm {
+	background: url("{T_THEME_PATH}/images/tm.png") repeat-x;
+	height: 18px;
+}
+
+.tr {
+	background: url("{T_THEME_PATH}/images/tr.png") no-repeat;
+	height: 18px;
+	width: 18px;
+}
+
+.ml {
+	background: url("{T_THEME_PATH}/images/ml.png") repeat-y;
+	width: 18px;
+}
+
+.bl {
+	background: url("{T_THEME_PATH}/images/bl.png") no-repeat;
+	height: 18px;
+	width: 18px;
+}
+
+.bm {
+	background: url("{T_THEME_PATH}/images/bm.png") repeat-x;
+	height: 18px;
+}
+
+.br {
+	background: url("{T_THEME_PATH}/images/br.png") no-repeat;
+	height: 18px;
+	width: 18px;
+}
+
+.mr {
+	background: url("{T_THEME_PATH}/images/mr.png") repeat-y;
+	width: 18px;
+}
+
+.rtl .tl {
+	background: url("{T_THEME_PATH}/images/tr.png") no-repeat;
+}
+
+.rtl .tm {
+	background: url("{T_THEME_PATH}/images/tm.png") repeat-x;
+}
+
+.rtl .tr {
+	background: url("{T_THEME_PATH}/images/tl.png") no-repeat;
+}
+
+.rtl .ml {
+	background: url("{T_THEME_PATH}/images/mr.png") repeat-y;
+}
+
+.rtl .bl {
+	background: url("{T_THEME_PATH}/images/br.png") no-repeat;
+}
+
+.rtl .bm {
+	background: url("{T_THEME_PATH}/images/bm.png") repeat-x;
+}
+
+.rtl .br {
+	background: url("{T_THEME_PATH}/images/bl.png") no-repeat;
+}
+
+.rtl .mr {
+	background: url("{T_THEME_PATH}/images/ml.png") repeat-y;
+}
+
+a.startlink, a.startlink:visited, a.startlink:link, a.startlink:hover, a.startlink:active {
+	position: relative;
+	top: 6px;
+	float: left;
+	color: #282828;
+	font-size: 11px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.rtl a.startlink, .rtl a.startlink:visited, .rtl a.startlink:link, .rtl a.startlink:hover, .rtl a.startlink:active {
+	float: right;
+	margin-right: 20px;
+}
+
+.startarrow {
+	background-image: url("{T_THEME_PATH}/images/startarrow.gif");
+	background-repeat: no-repeat;
+	background-position: -0px -0px;
+	float: left;
+	height: 15px;
+	width: 15px;
+    left: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.rtl .startarrow {
+	background-image: url("{T_THEME_PATH}/images/startarrow.gif");
+	background-repeat: no-repeat;
+	background-position: -0px -15px;
+	float: right;
+    right: 15px;
+}
+
+.startmisc {
+    float: left;
+	height: 25px;
+    left: 0;
+    position: relative;
+    top: 159px;
+    width: 268px;
+}
+
+.startwrap {
+    float: left;
+    height: 0;
+    position: relative;
+    width: 268px;
+    z-index: 2;
+	bottom: 241px;
+}
+
+.rtl .startwrap {
+    float: right;
+}
+
+a:link.squarebuttonl, a:visited.squarebuttonl, a:active.squarebuttonl {
+	color: #FFFFFF; /*button text color*/
+	text-decoration: none;
+}
+
+a.squarebuttonl:hover { /* Hover state CSS */
+	background-position: bottom left;
+}
+
+a.squarebuttonl:hover span { /* Hover state CSS */
+	background-position: bottom right;
+	color: #FFFFFF;
+}
+
+.buttonwrapper { /* Container you can use to surround a CSS button to clear float */
+	overflow: hidden;
+	height: 24px;
+	width: 100%;
+}
+
+.navspacel {
+	display: block;
+	position: relative;
+	float: left;
+	width: 2px;
+	height: 24px;
+}
+
+.rtl .navspacel {
+	float: right;
+}
+
+.navspace {
+	display: block;
+	position: relative;
+	float: left;
+	height: 24px;
+	margin-left: 50px;
+}
+
+.rtl .navspace {
+	float: right;
+}
+
+.mainbox-content {
+	background-color: #EFF7FB;
+	padding: 7px;
+	overflow: auto;
+}
+
+.forum-content {
+	background-color: #EFF7FB;
+}
+
+.navright {
+	width: 134px;
+	float: right;
+}
+
+.rtl .navright {
+	float: left;
+}
+
+#messageinfo {
+	height: 0;
+	float: right;
+}
+
+.rtl #messageinfo {
+	float: left;
+}
+
+.messageinfo {
+	background-image: url("{T_THEME_PATH}/images/info.png");
+	background-repeat: no-repeat;
+    float: right;
+    height: 35px;
+    right: 114px;
+    position: relative;
+    bottom: 28px;
+    width: 180px;
+    z-index: 2;
+}
+
+.rtl .messageinfo {
+	background-image: url("{T_THEME_PATH}/images/infortl.png");
+	background-repeat: no-repeat;
+    float: left;
+    right: -109px;
+}
+
+.messagecontent {
+    float: left;
+    font-size: 10px;
+    padding-left: 25px;
+    padding-top: 7px;
+    position: relative;
+}
+
+.rtl .messagecontent {
+    float: right;
+    padding-right: 25px;
+}
+
+.navtime {
+	color: #FFF;
+	font-size: 11px;
+	padding-top: 6px;
+	padding-right: 10px;
+	float: right;
+}
+
+.rtl .navtime {
+	padding-left: 10px;
+	float: left;
+}
+
+.navorbwrap {
+    float: left;
+    height: 0;
+    position: relative;
+	bottom: 5px;
+    width: 45px;
+    z-index: 3;
+}
+
+.rtl .navorbwrap {
+    float: right;
+}
+
+#startsearch {
+    color: #FFF;
+    padding-top: 198px;
+	text-align: left;
+    white-space: nowrap; /* For Opera */
+}
+
+.rtl #startsearch {
+	text-align: right;
+}
+
+#startsearch #keywords {
+    width: 185px;
+    margin-left: 26px;
+    height: 22px;
+    color: #999999;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 20px;
+	background: transparent;
+}
+
+.rtl #startsearch #keywords {
+    padding-right: 28px;
+}
+
+.searchbutton {
+	border: none;
+	background: none;
+	height: 14px;
+	width: 16px;
+	position: absolute;
+	left: 220px;
+	top: 204px;
+}
+
+.rtl .searchbutton {
+	left: 25px;
+}
+
+.mglass {
+	background: none;
+	border: none;
+	height: 14px;
+	width: 16px;
+	position: relative;
+	bottom: 3px;
+	right: 5px;
+}
+
+.rtl .mglass {
+	right: -12px;
+}
+
+.advsearch {
+    float: right;
+    font-size: 10px;
+    position: relative;
+    right: 5px;
+}
+
+.rtl .advsearch {
+    float: left;
+    right: -15px;
+}
+
+.headericon {
+	margin-bottom: -3px;
+}
+
+.midlink {
+	padding-right: 8px;
+}
+
+.rtl .midlink {
+	padding-left: 8px;
+}
+
+.nb {
+	border: none;
+	background: none;
+}
+
+h1 {
+	/* Forum name */
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-right: 200px;
+	color: #FFFFFF;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h2 {
+	/* Forum header titles */
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #002A46;
+	font-size: 2em;
+	margin: 0.8em 0 0.2em 0;
+}
+
+h2.solo {
+	margin-bottom: 1em;
+}
+
+h3 {
+	/* Sub-headers (also used as post headers, but defined later) */
+	font-weight: bold;
+	font-size: 1.05em;
+	color: #FFF;
+	padding-top: 7px;
+	padding-left: 3px;
+	padding-right: 7px;
+}
+
+.rtl h3 {
+	/* Sub-headers (also used as post headers, but defined later) */
+	font-weight: bold;
+	font-size: 1.05em;
+	color: #FFF;
+	padding-top: 7px;
+	padding-right: 3px;
+	padding-left: 7px;
+}
+
+h4 {
+	/* Forum and topic list titles */
+	font-family: "Trebuchet MS", Verdana, Helvetica, Arial, Sans-serif;
+	font-size: 1.3em;
+}
+
+h5 {
+	/* Sub-headers (also used as post headers, but defined later) */
+	font-weight: bold;
+	font-size: 1.05em;
+	color: #002A46;
+	padding-top: 7px;
+}
+
+p {
+	line-height: 1.3em;
+	font-size: 1.1em;
+}
+
+.genmed {
+	line-height: 1.3em;
+	font-size: 11px;
+}
+
+.genlarge {
+	line-height: 1.3em;
+	font-size: 12px;
+}
+
+a.headw, a.headw:visited, a.headw:link, a.headw:hover, a.headw:active {
+	color: #FFFFFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 2.0em;
+}
+
+.description {
+	color: #FFF;
+	padding-left: 1px;
+}
+
+.genmedw {
+	color: #FFF;
+}
+
+a.genmedw, a.genmedw:visited, a.genmedw:link, a.genmedw:hover, a.genmedw:active {
+	color: #FFF;
+}
+
+.genspaceh {
+	color: #FFF;
+	margin-top: 3px;
+	margin-left: 18px;
+	margin-right: 18px;
+	font-size: 1em;
+}
+
+img {
+	border-width: 0;
+}
+
+hr {
+	/* Also see tweaks.css */
+	border: 0 none #FFFFFF;
+	border-top: 1px solid #CCCCCC;
+	height: 1px;
+	margin: 5px 0;
+	display: block;
+	clear: both;
+}
+
+hr.dashed {
+	border-top: 1px dashed #CCCCCC;
+	margin: 10px 0;
+}
+
+hr.divider {
+	display: none;
+}
+
+p.right {
+	text-align: right;
+}
+
+/* Main blocks
+---------------------------------------- */
+#simple-wrap {
+	padding: 6px 10px;
+}
+
+#page-body {
+	margin: 4px 0;
+	clear: both;
+}
+
+#page-footer {
+	clear: both;
+}
+
+#page-footer h3 {
+	margin-top: 20px;
+}
+
+.logo {
+    margin-top: 18px;
+    margin-left: 8px;
+}
+
+.rtl .logo {
+    margin-right: 8px;
+}
+
+.imagelogo {
+    margin-left: 8px;
+}
+
+.rtl .imagelogo {
+    margin-right: 8px;
+}
+
+a#logo:hover {
+	text-decoration: none;
+}
+
+/* Search box
+--------------------------------------------- */
+#search-box {
+	color: #FFFFFF;
+	float: right;
+	padding-top: 18px;
+	text-align: left;
+	white-space: nowrap;
+	width: 160px;
+    background: url("{T_THEME_PATH}/images/searchbg.png") no-repeat right;
+}
+
+.rtl #search-box {
+	float: left;
+	text-align: right;
+	margin-left: -8px;
+}
+
+#search-box #keywords {
+	background: none;
+	color: #6C6C6C;
+	font-size: 10px;
+	font-style: italic;
+	height: 22px;
+	line-height: 20px;
+	width: 120px;
+	margin-bottom: 6px;
+}
+
+#search-box input, #startsearch input {
+    border: none;
+}
+
+/* .button1 style defined later, just a few tweaks for the search button version */
+#search-box input.button1 {
+    padding: 1px 5px;
+}
+
+#search-box li {
+    text-align: right;
+}
+
+#search-box img {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+input.search {
+	margin-left: 3px;
+	font-size: 11px;
+}
+
+.rtl input.search {
+	margin-right: 3px;
+}
+
+input.headersearch {
+	margin-left: 15px;
+	font-size: 11px;
+}
+
+.rtl input.headersearch {
+	margin-right: 3px;
+}
+
+input.forumsearch {
+    background-image: url("{T_THEME_PATH}/images/icon_textbox_search.gif");
+    background-repeat: no-repeat;
+    background-position: left 1px;
+    border-color: #3A4955;
+    color: #999999;
+    font-size: 11px;
+    font-style: italic;
+    padding-left: 17px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/* Site description and logo */
+#site-description {
+	float: left;
+	width: 70%;
+}
+
+#site-description h1 {
+	margin-right: 0;
+}
+
+/* Round cornered boxes and backgrounds
+---------------------------------------- */
+.headerbar {
+	background: #ebebeb none repeat-x 0 0;
+	color: #FFFFFF;
+	margin-bottom: 4px;
+	padding: 0 5px;
+}
+
+.navbar {
+	background: #DDE9F7 url("{T_THEME_PATH}/images/tabsbg.gif") repeat-x;
+	padding: 0 10px;
+}
+
+.navbaricon {
+	position: relative;
+    top: 2px;
+}
+
+.forabg {
+	background: #b1b1b1 none repeat-x 0 0;
+	margin-bottom: 4px;
+	padding: 0 5px;
+	clear: both;
+}
+
+.forumbg {
+	background: #ebebeb none repeat-x 0 0;
+	margin-bottom: 4px;
+	padding: 0 5px;
+	clear: both;
+}
+
+.panel {
+	padding: 5px 10px 20px 10px;
+	background-color: #EFF7FB;
+	color: #3f3f3f;
+}
+
+.post {
+	padding: 0 8px;
+	border-bottom: 1px solid #CCE3F3;
+	overflow: auto;
+}
+
+.post:target .content {
+	color: #000000;
+}
+
+.post:target h3 a {
+	color: #000000;
+}
+
+.bg1	{ background-color: #EFF7FB; }
+.bg2	{ background-color: #E4F4FE; }
+.bg3	{ background-color: #DEF1FC; }
+
+.row3h {
+	color: #002A46;
+	font-weight: bold;
+	background-color: #D8ECF6;
+	background-image: url("{T_THEME_PATH}/images/rowh.gif");
+	background-repeat: repeat-x;
+	background-position: top;
+	border-bottom: 1px solid #96D9F9;
+	padding: 4px;
+	height: 22px;
+}
+
+.row3l, a.row3l, a.row3l:visited, a.row3l:link, a.row3l:hover, a.row3l:active {
+	color: #002A46;
+	font-weight: bold;
+}
+
+.rowbg {
+	margin: 5px 5px 2px 5px;
+}
+
+.ucprowbg {
+	background-color: #e2e2e2;
+}
+
+.fieldsbg {
+	/*border: 1px #DBDEE2 solid;*/
+	background-color: #eaeaea;
+}
+
+span.corners-top, span.corners-bottom, span.corners-top span, span.corners-bottom span {
+	font-size: 1px;
+	line-height: 1px;
+	display: block;
+	height: 5px;
+	background-repeat: no-repeat;
+}
+
+span.corners-top {
+	background-image: none;
+	background-position: 0 0;
+	margin: 0 -5px;
+}
+
+span.corners-top span {
+	background-image: none;
+	background-position: 100% 0;
+}
+
+span.corners-bottom {
+	background-image: none;
+	background-position: 0 100%;
+	margin: 0 -5px;
+	clear: both;
+}
+
+span.corners-bottom span {
+	background-image: none;
+	background-position: 100% 100%;
+}
+
+.headbg span.corners-bottom {
+	margin-bottom: -1px;
+}
+
+.post span.corners-top, .post span.corners-bottom, .panel span.corners-top, .panel span.corners-bottom, .navbar span.corners-top, .navbar span.corners-bottom {
+	margin: 0 -10px;
+}
+
+.rules span.corners-top {
+	margin: 0 -10px 5px -10px;
+}
+
+.rules span.corners-bottom {
+	margin: 5px -10px 0 -10px;
+}
+
+/* Horizontal lists
+----------------------------------------*/
+ul.linklist {
+	display: block;
+	margin: 0;
+}
+
+ul.linklist li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: auto;
+	margin-right: 5px;
+	font-size: 1.1em;
+	line-height: 2.2em;
+}
+
+ul.linklist li.rightside, p.rightside {
+	float: right;
+	margin-right: 0;
+	margin-left: 5px;
+	text-align: right;
+}
+
+ul.navlinks {
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+	border-bottom: 1px solid #FFFFFF;
+	font-weight: bold;
+}
+
+ul.leftside {
+	float: left;
+	margin-left: 0;
+	margin-right: 5px;
+	text-align: left;
+}
+
+ul.rightside {
+	float: right;
+	margin-left: 5px;
+	margin-right: -5px;
+	text-align: right;
+}
+
+/* Table styles
+----------------------------------------*/
+table.table1 {
+	/* See tweaks.css */
+}
+
+#ucp-main table.table1 {
+	padding: 2px;
+}
+
+table.table1 thead th {
+	font-weight: bold;
+	color: #002A46;
+	line-height: 1.3em;
+	font-size: 1em;
+	padding: 0 0 0 3px;
+}
+
+table.table1 thead th span {
+	padding-left: 7px;
+}
+
+table.table1 td {
+	color: #000000;
+	font-size: 1.1em;
+}
+
+table.table1 tbody td {
+	padding: 5px;
+}
+
+table.table1 tbody th {
+	padding: 5px;
+	text-align: left;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+/* Specific column styles */
+table.table1 .name		{ text-align: left; }
+table.table1 .posts		{ text-align: center !important; width: 7%; }
+table.table1 .joined	{ text-align: left; width: 15%; }
+table.table1 .active	{ text-align: left; width: 15%; }
+table.table1 .mark		{ text-align: center; width: 7%; }
+table.table1 .info		{ text-align: left; width: 30%; }
+table.table1 .info div	{ width: 100%; white-space: normal; overflow: hidden; }
+table.table1 .autocol	{ line-height: 2em; white-space: nowrap; }
+table.table1 thead .autocol { padding-left: 1em; }
+
+table.table1 span.rank-img {
+	float: right;
+	width: auto;
+}
+
+table.info td {
+	padding: 3px;
+}
+
+table.info tbody th {
+	padding: 3px;
+	text-align: right;
+	vertical-align: top;
+	color: #000000;
+	font-weight: normal;
+}
+
+.forumbg table.table1 {
+	margin: 0 -2px -1px -1px;
+}
+
+/* Misc layout styles
+---------------------------------------- */
+/* column[1-2] styles are containers for two column layouts 
+   Also see tweaks.css */
+.column1 {
+	float: left;
+	clear: left;
+	width: 49%;
+}
+
+.column2 {
+	float: right;
+	clear: right;
+	width: 49%;
+}
+
+/* General classes for placing floating blocks */
+.left-box {
+	float: left;
+	width: auto;
+	text-align: left;
+}
+
+.right-box {
+	float: right;
+	width: auto;
+	text-align: right;
+}
+
+dl.details {
+	/*font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;*/
+	font-size: 1.1em;
+}
+
+dl.details dt {
+	float: left;
+	clear: left;
+	width: 30%;
+	text-align: right;
+	color: #000000;
+	display: block;
+}
+
+dl.details dd {
+	margin-left: 0;
+	padding-left: 5px;
+	margin-bottom: 5px;
+	color: #000000;
+	float: left;
+	width: 65%;
+}
+
+/* Pagination
+---------------------------------------- */
+.pagination {
+	height: 1%; /* IE tweak (holly hack) */
+	width: auto;
+	text-align: right;
+	margin-top: 5px;
+	float: right;
+}
+
+.pagination span.page-sep {
+	display: none;
+}
+
+li.pagination {
+	margin-top: 0;
+}
+
+.pagination strong, .pagination b {
+	font-weight: normal;
+}
+
+.pagination span strong {
+	padding: 0 2px;
+	margin: 0 2px;
+	font-weight: normal;
+	color: #000;
+	font-size: 0.9em;
+}
+
+.pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
+	font-weight: normal;
+	text-decoration: none;
+	color: #002A46;
+	margin: 0 2px;
+	padding: 0 2px;
+	border: 1px solid #99DEFD;
+	background-color: #E0F2FB;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+.pagination span a:hover {
+	background-color: #E0F2FB;
+	border: 1px solid #56CBFF;
+	color: #000;
+	text-decoration: none;
+}
+
+.pagination img {
+	vertical-align: middle;
+}
+
+/* Pagination in viewforum for multipage topics */
+.row .pagination {
+	display: block;
+	float: right;
+	width: auto;
+	margin-top: 0;
+	padding: 1px 0 1px 15px;
+	font-size: 0.9em;
+	background: none 0 50% no-repeat;
+}
+
+.row .pagination span a, li.pagination span a {
+	color: #005E9D;
+	border: 1px solid #B7E9FF;
+	background-color: #E8F5FD;
+}
+
+.row .pagination span a:hover, li.pagination span a:hover {
+	color: #002A46;
+	background-color: #E0F2FB;
+	border: 1px solid #99DEFD;
+}
+
+/* Miscellaneous styles
+---------------------------------------- */
+#forum-permissions {
+	float: right;
+	width: auto;
+	padding-left: 5px;
+	margin-left: 5px;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.copyright {
+	padding: 5px;
+	text-align: center;
+	color: #444;
+}
+
+.small {
+	font-size: 0.9em !important;
+}
+
+.titlespace {
+	margin-bottom: 15px;
+}
+
+.headerspace {
+	margin-top: 20px;
+}
+
+.error {
+	color: #900000;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.reported {
+	background-color: #FDFFD3;
+	border: 1px solid #FDFFD3;
+}
+
+li.reported:hover {
+	background-color: #FCFFB5;
+	border: 1px solid #F9FF57;
+}
+
+div.rules {
+	color: #900000;
+	margin: 10px 20px;
+	font-size: 1.1em;
+}
+
+div.rules ul, div.rules ol {
+	margin-left: 20px;
+}
+
+p.rules {
+	background-image: none;
+	padding: 5px;
+}
+
+p.rules img {
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+p.rules a {
+	vertical-align: middle;
+	clear: both;
+}
+
+#top {
+	position: absolute;
+	top: -20px;
+}
+
+.clear {
+	display: block;
+	clear: both;
+	font-size: 1px;
+	line-height: 1px;
+	background: transparent;
+}

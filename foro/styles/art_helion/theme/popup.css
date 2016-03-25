@@ -1,0 +1,181 @@
+/*
+	Popups
+*/
+.phpbb .popup-trigger {
+	position: relative;
+}
+.phpbb .top-links .popup-trigger {
+	display: inline-block;
+}
+.phpbb .top-links .popup .popup-trigger {
+	display: block;
+}
+
+.phpbb .popup {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 27px;
+	z-index: 10;
+	padding: 5px;
+	margin: 0;
+	border: 1px solid transparent;
+	min-width: 150px;
+	white-space: nowrap;
+	text-align: left;
+	font-size: 12px;
+	line-height: 1.5em;
+	font-family: Verdana;
+}
+.phpbb .popup-list {
+	line-height: 1em;
+	padding: 0;
+}
+
+.ie7 .phpbb .popup {
+	top: 24px;
+}
+.phpbb .menu .popup {
+	left: 4px;
+}
+.phpbb .top-links .popup {
+	top: 28px;
+}
+.phpbb .header-login .popup {
+	top: 18px;
+	left: auto;
+	right: 0;
+}
+.ie7 .phpbb .header-login .popup {
+	top: 20px;
+}
+.phpbb .popup-list .popup {
+	top: 0;
+	left: 198px;
+}
+.phpbb .popup-up .popup {
+	top: auto;
+	bottom: 0;
+}
+.phpbb .right .popup {
+	left: auto;
+	right: 0;
+}
+
+.phpbb .popup-trigger:hover > .popup, .phpbb .popup.active {
+	display: block;
+}
+
+.phpbb .popup p {
+	padding: 3px 0;
+	line-height: 1.3em;
+	font-family: Helvetica, Arial;
+	font-size: 13px;
+}
+.phpbb .popup p.title {
+	font-size: 14px;
+	padding: 5px 0;
+	font-family: Verdana;
+}
+.phpbb .popup p.title:first-child, .phpbb .popup p:first-child { 
+	padding-top: 0;
+}
+.phpbb .popup p:last-child { 
+	padding-bottom: 0;
+}
+
+/*
+	Login form
+*/
+.phpbb #phpbb-header-login dd {
+	text-align: right;
+}
+.phpbb #phpbb-header-login p.right {
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+
+/*
+	Links
+*/
+.phpbb .popup-list li {
+	padding: 0;
+}
+
+.ie7 .phpbb .popup-list a {
+	width: 100%;
+}
+
+
+.phpbb li.popup-link {
+	border: 1px solid transparent;
+	border-width: 0 1px;
+	padding: 0;
+	background: transparent none 0 0 repeat-x;
+}
+.phpbb li.popup-link:first-child {
+	border-top-width: 1px;
+}
+.phpbb li.poup-link:last-child {
+	border-bottom-width: 1px;
+}
+.phpbb .popup.popup-list li.popup-link:hover, .phpbb .show-levels li.level-root, .phpbb .popup-list li.row-new {
+	background-position: 0 -27px !important;
+}
+
+.phpbb li.popup-link > a, .phpbb li.popup-link > span {
+	display: block;
+	line-height: 1em;
+	padding: 7px 20px 0 8px;
+	height: 20px;
+	text-decoration: none !important;
+	width: 172px;
+	min-width: 172px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.phpbb li.popup-link.popup-trigger > a {
+	background: transparent none 100% 0 no-repeat;
+}
+.phpbb li.popup-link.popup-trigger:hover > a {
+	background-position: 100% -60px;
+}
+.phpbb li.poup-link:last-child > a, .phpbb li.poup-link:last-child > span {
+	height: 19px;
+}
+
+.phpbb .popup-list > ol {
+	display: table-row;
+}
+.phpbb .popup-list > ol > li {
+	display: table-cell;
+	padding: 0;
+}
+
+/*
+	Definition lists
+*/
+.phpbb .popup dl {
+	clear: both;
+	width: 254px;
+	margin: 0;
+	padding: 4px;
+}
+.phpbb .popup dt {
+	float: left;
+	width: 100px;
+	margin: 0;
+	padding: 3px 0 0;
+}
+.phpbb .popup dd {
+	width: 150px;
+	margin: 0;
+	margin-left: 104px;
+	padding: 0;
+}
+.ie7 .phpbb .popup dd {
+	margin-left: 0;
+}
+.phpbb .popup dd input {
+	width: 140px;
+}

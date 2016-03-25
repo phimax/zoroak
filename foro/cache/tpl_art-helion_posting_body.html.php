@@ -1,0 +1,1 @@
+<?php if (!defined('IN_PHPBB')) exit; $this->_tpldata['DEFINE']['.']['S_POSTING_JS'] = 1; if ($this->_rootref['S_PRIVMSGS']) {  $this->_tpl_include('posting_pm_layout.html'); } else { $this->_tpl_include('posting_layout.html'); } ?>

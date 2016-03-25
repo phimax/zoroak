@@ -1,0 +1,199 @@
+
+/* Layout
+ ------------ */
+
+body {
+	background-color: #CCE3F3;
+    background-image: url("./images/green/bg.gif");
+	background-repeat: repeat-x;
+	background-position: top;
+	background-attachment: scroll;
+}
+
+.midm {
+	background: #003803 url("./images/green/midm.png") repeat-x;
+	height: 80px;
+}
+
+.midr {
+	background: #003803 url("./images/green/midr.png") no-repeat;
+	height: 80px;
+	width: 470px;
+}
+
+.rtl .midr {
+	background: #003803 url("./images/green/midrrtl.png") no-repeat;
+}
+
+.start {
+	background-image: url("./images/green/start.png");
+	background-position: -0px -58px;
+	background-repeat: no-repeat;
+	float: left;
+    height: 242px;
+    width: 268px;
+    z-index: 2;
+}
+
+.rtl .start {
+	float: right;
+}
+
+.startmisc:hover {
+	background-image: url("./images/green/start.png");
+	background-position: -0px -300px;
+	background-repeat: no-repeat;
+}
+
+.navorb {
+	background-image: url("./images/green/start.png");
+	background-position: -0px -0px;
+	background-repeat: no-repeat;
+	float: left;
+    height: 29px;
+    width: 45px;
+    z-index: 3;
+}
+
+.navorb:hover {
+	background-image: url("./images/green/start.png");
+	background-position: -0px -29px;
+	background-repeat: no-repeat;
+	float: left;
+    height: 29px;
+    width: 45px;
+    z-index: 3;
+}
+
+.navmessages {
+	background-image: url("./images/green/navmessages.png");
+	background-position: -0px -0px;
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 21px;
+	float: left;
+}
+
+.rtl .navmessages {
+	float: right;
+}
+
+.navmessages:hover {
+	background-image: url("./images/green/navmessages.png");
+	background-position: -0px -24px;
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 21px;
+	float: left;
+}
+
+.rtl .navmessages:hover {
+	float: right;
+}
+
+.navsettings {
+	background-image: url("./images/green/navsettings.png");
+	background-position: -0px -0px;
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 21px;
+	float: left;
+}
+
+.rtl .navsettings {
+	float: right;
+}
+
+.navsettings:hover {
+	background-image: url("./images/green/navsettings.png");
+	background-position: -0px -24px;
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 21px;
+	float: left;
+}
+
+.rtl .navsettings:hover {
+	float: right;
+}
+
+.navbutton {
+	background-image: url("./images/green/navmrbutton.png");
+	background-position: -0px -0px;
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 12px;
+	float: right;
+	position: relative;
+}
+
+.rtl .navbutton {
+	float: left;
+}
+
+.navbutton:hover {
+	background-image: url("./images/green/navmrbutton.png");
+	background-position: -0px -24px;
+}
+
+#navbarbg {
+	background: #068911 url("./images/green/navm.png") repeat-x;
+	height: 24px;
+	width: 100%;
+}
+
+a.squarebuttonl {
+	background: transparent url("./images/green/navl.png") no-repeat top left;
+	display: block;
+	float: left;
+	font-size: 10px; /* Change as desired */
+	line-height: 16px; /* This value + 4px + 4px (top and bottom padding of SPAN) */
+	height: 24px; /* Height of button background height */
+	text-decoration: none;
+}
+
+.rtl a.squarebuttonl {
+	float: right;
+}
+
+a.squarebuttonl span {
+	background: transparent url("./images/green/navr.png") no-repeat top right;
+	display: block;
+	padding: 4px 10px 4px 10px;
+}
+
+/* Tables
+ ------------ */
+.cat {
+	color: #FFFFFF;
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #033706;
+	background-image: url("./images/green/cellpic1.gif");
+	background-repeat: repeat-x;
+	text-indent: 4px;
+	z-index: 1;
+}
+
+.catb {
+	color: #FFFFFF;
+	height: 28px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #032A09;
+	background-image: url("./images/green/cellpic3.gif");
+	background-repeat: repeat-x;
+	text-indent: 4px;
+	z-index: 1;
+}
+
+.reply-icon span	{ background-image: url("./images/green/button_topic_reply.png"); }
+.qreply-icon span	{ background-image: url("./images/green/button_topic_qreply.png"); }
+.post-icon span		{ background-image: url("./images/green/button_topic_new.png"); }
+.locked-icon span	{ background-image: url("./images/green/button_topic_locked.png"); }
+.pmreply-icon span	{ background-image: url("./images/green/button_pm_reply.png"); }
+.newpm-icon span 	{ background-image: url("./images/green/button_pm_new.png"); }
+.forwardpm-icon span	{ background-image: url("./images/green/button_pm_forward.png"); }

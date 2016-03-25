@@ -1,0 +1,76 @@
+
+<!-- IF S_HAS_POLL_OPTIONS -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="tl"></td>
+    <td class="tm"></td>
+    <td class="tr"></td>
+  </tr>
+  <tr>
+    <td class="ml"></td>
+    <td>
+<div class="cat">
+	<h3>{L_PREVIEW}: {POLL_QUESTION}</h3>
+</div>
+<div class="mainbox-content">
+	<div class="content">
+		<p class="author"><!-- IF L_POLL_LENGTH -->{L_POLL_LENGTH}<br /><!-- ENDIF -->{L_MAX_VOTES}</p>
+
+		<fieldset class="polls">
+		<!-- BEGIN poll_option -->
+			<dl>
+				<dt><label for="vote_{poll_option.POLL_OPTION_ID}">{poll_option.POLL_OPTION_CAPTION}</label></dt>
+				<dd style="width: auto;"><!-- IF S_IS_MULTI_CHOICE --><input type="checkbox" name="vote_id[]" id="vote_{poll_option.POLL_OPTION_ID}" value="{poll_option.POLL_OPTION_ID}"<!-- IF poll_option.POLL_OPTION_VOTED --> checked="checked"<!-- ENDIF --> /><!-- ELSE --><input type="radio" name="vote_id[]" id="vote_{poll_option.POLL_OPTION_ID}" value="{poll_option.POLL_OPTION_ID}"<!-- IF poll_option.POLL_OPTION_VOTED --> checked="checked"<!-- ENDIF --> /><!-- ENDIF --></dd>
+			</dl>
+		<!-- END poll_option -->
+		</fieldset>
+	</div>
+</div>
+</td>    <td class="mr"></td>
+  </tr>
+  <tr>
+    <td class="bl"></td>
+    <td class="bm"></td>
+    <td class="br"></td>
+  </tr>
+</table>
+
+<!-- ENDIF -->
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="tl"></td>
+    <td class="tm"></td>
+    <td class="tr"></td>
+  </tr>
+  <tr>
+    <td class="ml"></td>
+    <td>
+<div class="cat">
+	<h3>{L_PREVIEW}: {PREVIEW_SUBJECT}</h3>
+</div>
+<div class="mainbox-content">	
+
+		<p>{PREVIEW_MESSAGE}</p>
+
+		<!-- IF .attachment -->
+		<dl class="attachbox">
+			<dt>{L_ATTACHMENTS}</dt>
+			<!-- BEGIN attachment -->
+			<dd>{attachment.DISPLAY_ATTACHMENT}</dd>
+			<!-- END attachment -->
+		</dl>
+		<!-- ENDIF -->
+
+		<!-- IF PREVIEW_SIGNATURE --><div class="signature">{PREVIEW_SIGNATURE}</div><!-- ENDIF -->
+
+</div>
+</td>
+    <td class="mr"></td>
+  </tr>
+  <tr>
+    <td class="bl"></td>
+    <td class="bm"></td>
+    <td class="br"></td>
+  </tr>
+</table>

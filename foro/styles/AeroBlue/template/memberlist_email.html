@@ -1,0 +1,78 @@
+<!-- INCLUDE overall_header.html -->
+<div class="tbspace">
+<h2 class="titlespace">{L_SEND_EMAIL_USER} {USERNAME}</h2>
+</div>
+
+<form method="post" action="{S_POST_ACTION}" id="post">
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="tl"></td>
+    <td class="tm"></td>
+    <td class="tr"></td>
+  </tr>
+  <tr>
+    <td class="ml"></td>
+    <td>
+<div class="cat">
+	<h3>{L_SEND_EMAIL_USER} {USERNAME}</h3>
+</div>
+<div class="mainbox-content">
+
+		<!-- IF ERROR_MESSAGE --><p class="error">{ERROR_MESSAGE}</p><!-- ENDIF -->
+		<fieldset class="fields2">
+		<!-- IF S_SEND_USER -->
+			<dl>
+				<dt><label>{L_RECIPIENT}:</label></dt>
+				<dd><strong>{USERNAME}</strong></dd>
+			</dl>
+			<dl>
+				<dt><label for="subject">{L_SUBJECT}:</label></dt>
+				<dd><input class="inputbox autowidth" type="text" name="subject" id="subject" size="50" tabindex="1" value="{SUBJECT}" /></dd>
+			</dl>
+		<!-- ELSE -->
+			<dl>
+				<dt><label for="email">{L_EMAIL_ADDRESS}:</label></dt>
+				<dd><input class="inputbox autowidth" type="text" name="email" id="email" size="50" maxlength="100" tabindex="2" value="{EMAIL}" /></dd>
+			</dl>
+			<dl>
+				<dt><label for="name">{L_REAL_NAME}:</label></dt>
+				<dd><input class="inputbox autowidth" type="text" name="name" id="name" size="50" tabindex="3" value="{NAME}" /></dd>
+			</dl>
+			<dl>
+				<dt><label for="lang">{L_DEST_LANG}:</label><br />
+					<span>{L_DEST_LANG_EXPLAIN}</span></dt>
+				<dd><select name="lang">{S_LANG_OPTIONS}</select></dd>
+			</dl>
+		<!-- ENDIF -->
+		<dl>
+			<dt><label for="message">{L_MESSAGE_BODY}:</label><br />
+			<span>{L_EMAIL_BODY_EXPLAIN}</span></dt>
+			<dd><textarea class="inputbox" name="message" id="message" rows="15" cols="76" tabindex="4">{MESSAGE}</textarea></dd>
+		</dl>
+		<dl>
+			<dt>&nbsp;</dt>
+			<dd><label for="cc_email"><input type="checkbox" name="cc_email" id="cc_email" value="1" checked="checked" tabindex="5" /> {L_CC_EMAIL}</label></dd>
+		</dl>
+		</fieldset>
+
+		<fieldset class="submit-buttons">
+			<input type="submit" tabindex="6" name="submit" class="button1" value="{L_SEND_EMAIL}" />
+		</fieldset>
+
+</div>
+    	</td>
+    <td class="mr"></td>
+  </tr>
+  <tr>
+    <td class="bl"></td>
+    <td class="bm"></td>
+    <td class="br"></td>
+  </tr>
+</table>
+
+{S_FORM_TOKEN}
+
+</form>
+
+<!-- INCLUDE overall_footer.html -->

@@ -1,0 +1,209 @@
+/*
+	Forms
+*/
+
+.phpbb input[type="text"], .phpbb input[type="password"], .phpbb input[type="email"], .phpbb textarea, .phpbb select, .phpbb input[type="submit"], .phpbb .button1, .phpbb .button2 {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	font-size: 13px;
+	line-height: 1.2em;
+	outline-style: none;
+	border: 1px solid transparent;
+	background-position: 0 50%;
+}
+.phpbb textarea {
+	line-height: 1.4em;
+}
+.phpbb input[type="text"], .phpbb input[type="password"], .phpbb input[type="email"], .phpbb textarea, .phpbb input[type="submit"], .phpbb .button1, .phpbb .button2 {
+	-webkit-appearance: none;
+}
+
+.phpbb a.button1, .phpbb a.button2 {
+	display: inline-block;
+	text-decoration: none;
+}
+.phpbb .button2 {
+	background-position: 100% 50%;
+}
+
+.phpbb input[type="text"], .phpbb input[type="password"], .phpbb input[type="email"], .phpbb textarea, .phpbb select {
+	padding: 2px;
+}
+.phpbb.browser-mozilla input[type="text"], .phpbb.browser-mozilla input[type="password"], .phpbb.browser-mozilla input[type="email"] {
+	padding: 1px 2px 2px;
+}
+.phpbb input[type="text"]:invalid, .phpbb input[type="password"]:invalid, .phpbb input[type="email"]:invalid, .phpbb textarea:invalid {
+	box-shadow: none;
+}
+
+.phpbb input[type="submit"], .phpbb .button1, .phpbb .button2 {
+	line-height: 1.4em;
+	padding: 2px 8px 3px;
+	cursor: pointer;
+	border-width: 0;
+	border-radius: 5px;
+}
+.ie7 .phpbb input[type="submit"], .ie7 .phpbb .button1, .ie7 .phpbb .button2 {
+	padding-top: 0;
+	padding-bottom: 1px;
+	margin-top: 0;
+}
+
+.phpbb a.button1, .phpbb a.button2 {
+	line-height: 1em;
+	padding: 4px 10px 0;
+	height: 19px;
+}
+.oldie .phpbb a.button1, .oldie .phpbb a.button2 {
+	padding-top: 5px;
+}
+.ie7 .phpbb a.button1, .ie7 .phpbb a.button2 {
+	padding-top: 4px;
+	padding-bottom: 0;
+}
+.ie7 .phpbb .menu a.button1, .ie7 .phpbb .menu a.button2 {
+	position: relative;
+	top: 2px;
+}
+
+.phpbb input[type="checkbox"], .phpbb input[type="radio"] {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.phpbb select {
+	max-width: 250px;
+}
+.ie7 .phpbb select {
+	width: 250px;
+}
+
+.phpbb fieldset.submit-buttons {
+	text-align: center;
+	padding: 4px 0;
+}
+.phpbb #format-buttons .button2 {
+	border-width: 1px;
+	width: auto !important;
+}
+.ie7 .phpbb #format-buttons .button2 {
+	padding: 0;
+}
+
+.phpbb #search_keywords {
+	padding-left: 19px;
+	background-position: 4px 50%;
+	background-repeat: no-repeat;
+}
+
+.phpbb #edit_reason {
+	width: 90%;
+}
+
+/*
+	Big post buttons
+*/
+.phpbb .buttons a, .phpbb a.button {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	margin-left: 30px;
+	padding: 4px 12px 0 0;
+	vertical-align: top;
+	height: 26px;
+	font-family: Verdana;
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+	outline-style: none;
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	max-width: 400px;
+}
+.phpbb.browser-webkit .buttons a, .phpbb.browser-webkit a.button {
+	padding-top: 5px;
+	height: 25px;
+}
+
+.phpbb .buttons a span, .phpbb a.button span {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -30px;
+	width: 30px;
+	background-position: 0 -30px;
+	background-repeat: no-repeat;
+}
+.ie7 .phpbb .topic-actions .buttons, .ie7 .phpbb .panel .buttons, .ie7 .phpbb .popup .buttons {
+	position: relative;
+	left: 30px;
+}
+
+.phpbb .buttons .reply-icon a span, .phpbb .buttons .pmreply-icon a span, .phpbb .buttons .locked-icon a span {
+	background-position: -30px -30px;
+}
+.phpbb .buttons .newpm-icon a span {
+	background-position: -60px -30px;
+}
+.phpbb .buttons .post-icon a span {
+	background-position: -90px -30px;
+}
+.phpbb #qr_showeditor_div a span, .phpbb .jumpbox a.button span {
+	background-position: -120px -30px;
+}
+.phpbb .buttons a.icon-login span {
+	background-position: -150px -30px;
+}
+.phpbb .buttons a.icon-register span, .phpbb .buttons .forwardpm-icon a span {
+	background-position: -180px -30px;
+}
+
+/*
+	Menu forms
+*/
+.phpbb li.menu-form input.inputbox {
+	width: 156px;
+	border-radius: 6px;
+}
+.phpbb li.menu-form input.inputbox.search, .phpbb li.menu-form input.inputbox.login, .phpbb li.menu-form input.inputbox.password {
+	padding-left: 20px;
+	width: 172px;
+	background-position: 4px 45%;
+	background-repeat: no-repeat;
+}
+.phpbb li.menu-form input.inputbox.search {
+	width: 140px;
+}
+.phpbb li.menu-form input.button-icon {
+	width: 0;
+	height: 0;
+	padding: 24px 0 0 26px;
+	overflow: hidden;
+	font-size: 0;
+	float: right;
+	border-width: 0;
+	border-radius: 0;
+	background: transparent none 0 -60px no-repeat;
+}
+.ie7 .phpbb li.menu-form input.button-icon {
+	width: 26px;
+	height: 24px;
+	padding-top: 0;
+}
+.phpbb li.menu-form label {
+	display: block;
+	font-size: 11px;
+	max-width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ie7 .phpbb li.menu-form label {
+	white-space: normal;
+}
+.phpbb li.menu-form .buttons {
+	float: none;
+	text-align: right;
+}
